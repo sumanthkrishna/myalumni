@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th>Alumni</th>
+    <th>University</th>
+    <th>Course</th>
+    <th>Year</th>
+  </tr>
+
+<% alumnis.each do |alumni| %>
+  <tr>
+    <td><%=h alumni.user.username %></td>
+    <td><%=h alumni.university.name %></td>
+    <td><%=h alumni.course.name %></td>
+    <td><%=h alumni.year %></td>
+    <!--
+    <td><%= link_to 'Show', alumni %></td>
+    <td><%= link_to 'Edit', edit_alumni_path(alumni) %></td>
+    <td><%= link_to 'Destroy', alumni, :confirm => 'Are you sure?', :method => :delete %></td> -->
+  </tr>
+<% end %>
+</table>

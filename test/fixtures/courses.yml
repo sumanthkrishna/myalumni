@@ -1,0 +1,12 @@
+Course1: 
+  id: 1
+  name: Ruby Development
+
+Course2: 
+  id: 2
+  name: Ruby On Rails Development
+
+Course3: 
+  id: 3
+  name: PHP Development
+

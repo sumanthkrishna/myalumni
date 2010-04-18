@@ -1,0 +1,25 @@
+
+development:
+  adapter: mysql
+  encoding: utf8
+  database: my_alumni_development
+  pool: 5
+  username: root
+  password: root
+  
+test:
+  adapter: mysql
+  encoding: utf8
+  database: alumni_test
+  pool: 5
+  username: root
+  password: 
+
+production:
+  adapter: mysql
+  encoding: utf8
+  database: alumni_production
+  pool: 5
+  username: root
+  password: 
+

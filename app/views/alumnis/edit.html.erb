@@ -1,0 +1,28 @@
+<h1>Editing search</h1>
+
+<% form_for(@search) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :alumni_id %><br />
+    <%= f.text_field :alumni_id %>
+  </p>
+  <p>
+    <%= f.label :university_id %><br />
+    <%= f.text_field :university_id %>
+  </p>
+  <p>
+    <%= f.label :course_id %><br />
+    <%= f.text_field :course_id %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @search %> |
+<%= link_to 'Back', searches_path %>

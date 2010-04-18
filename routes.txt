@@ -1,0 +1,36 @@
+(in /Users/adit/Webappz/adil/alumni)
+ do_now_searches POST   /searches/do_now(.:format)         {:action=>"do_now", :controller=>"searches"}
+        searches GET    /searches(.:format)                {:action=>"index", :controller=>"searches"}
+                 POST   /searches(.:format)                {:action=>"create", :controller=>"searches"}
+      new_search GET    /searches/new(.:format)            {:action=>"new", :controller=>"searches"}
+     edit_search GET    /searches/:id/edit(.:format)       {:action=>"edit", :controller=>"searches"}
+          search GET    /searches/:id(.:format)            {:action=>"show", :controller=>"searches"}
+                 PUT    /searches/:id(.:format)            {:action=>"update", :controller=>"searches"}
+                 DELETE /searches/:id(.:format)            {:action=>"destroy", :controller=>"searches"}
+    universities GET    /universities(.:format)            {:action=>"index", :controller=>"universities"}
+                 POST   /universities(.:format)            {:action=>"create", :controller=>"universities"}
+  new_university GET    /universities/new(.:format)        {:action=>"new", :controller=>"universities"}
+ edit_university GET    /universities/:id/edit(.:format)   {:action=>"edit", :controller=>"universities"}
+      university GET    /universities/:id(.:format)        {:action=>"show", :controller=>"universities"}
+                 PUT    /universities/:id(.:format)        {:action=>"update", :controller=>"universities"}
+                 DELETE /universities/:id(.:format)        {:action=>"destroy", :controller=>"universities"}
+         courses GET    /courses(.:format)                 {:action=>"index", :controller=>"courses"}
+                 POST   /courses(.:format)                 {:action=>"create", :controller=>"courses"}
+      new_course GET    /courses/new(.:format)             {:action=>"new", :controller=>"courses"}
+     edit_course GET    /courses/:id/edit(.:format)        {:action=>"edit", :controller=>"courses"}
+          course GET    /courses/:id(.:format)             {:action=>"show", :controller=>"courses"}
+                 PUT    /courses/:id(.:format)             {:action=>"update", :controller=>"courses"}
+                 DELETE /courses/:id(.:format)             {:action=>"destroy", :controller=>"courses"}
+do_login_alumnis POST   /alumnis/do_login(.:format)        {:action=>"do_login", :controller=>"alumnis"}
+    new2_alumnis GET    /alumnis/new2(.:format)            {:action=>"new2", :controller=>"alumnis"}
+   login_alumnis GET    /alumnis/login(.:format)           {:action=>"login", :controller=>"alumnis"}
+         alumnis GET    /alumnis(.:format)                 {:action=>"index", :controller=>"alumnis"}
+                 POST   /alumnis(.:format)                 {:action=>"create", :controller=>"alumnis"}
+      new_alumni GET    /alumnis/new(.:format)             {:action=>"new", :controller=>"alumnis"}
+     edit_alumni GET    /alumnis/:id/edit(.:format)        {:action=>"edit", :controller=>"alumnis"}
+          alumni GET    /alumnis/:id(.:format)             {:action=>"show", :controller=>"alumnis"}
+                 PUT    /alumnis/:id(.:format)             {:action=>"update", :controller=>"alumnis"}
+                 DELETE /alumnis/:id(.:format)             {:action=>"destroy", :controller=>"alumnis"}
+            root        /                                  {:action=>"index", :controller=>"welcome"}
+                        /:controller/:action/:id           
+                        /:controller/:action/:id(.:format) 

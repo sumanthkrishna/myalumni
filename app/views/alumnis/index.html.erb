@@ -1,0 +1,35 @@
+<% content_for :container do -%>
+<div id="heading">
+<h1>Listing Alumni</h1><br/>
+<p>
+Search By : <br/><br/>
+University
+<%= select_tag "university",options_for_select(University.find(:all,:order => "name DESC").collect {|u| [u.name,u.id]}.push(" ").reverse),
+:onchange => remote_function(
+  :url => search_alumnis_path,
+  :with => "'university=' + $('university').value + '&course=' + $('course').value + '&year=' + $('year').value" 
+)
+ %>
+Course
+<%= select_tag "course",options_for_select(Course.find(:all,:order => "name DESC").collect {|u| [u.name,u.id]}.push(" ").reverse),
+:onchange => remote_function(
+  :url => search_alumnis_path,
+  :with => "'university=' + $('university').value + '&course=' + $('course').value + '&year=' + $('year').value" 
+) %>
+Year 
+<%= select_tag "year",options_for_select((1900..2009).to_a.push(" ").reverse),
+:onchange => remote_function(
+  :url => search_alumnis_path,
+  :with => "'university=' + $('university').value + '&course=' + $('course').value + '&year=' + $('year').value" 
+) %>
+</p>
+<br/><br/>
+<div id="result">
+  <%= render :partial => "tables",:locals => {:alumnis => @alumnis} %>
+</div>
+
+<br />
+
+<%# link_to 'New search', new_search_path %>
+</div>
+<% end -%>

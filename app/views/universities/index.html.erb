@@ -1,0 +1,20 @@
+<h1>Listing universities</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% @universities.each do |university| %>
+  <tr>
+    <td><%=h university.name %></td>
+    <td><%= link_to 'Show', university %></td>
+    <td><%= link_to 'Edit', edit_university_path(university) %></td>
+    <td><%= link_to 'Destroy', university, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New university', new_university_path %>

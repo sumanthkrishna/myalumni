@@ -1,0 +1,12 @@
+<% if logged_in? -%>
+  <ul>
+    <li>Logged in as <%= link_to current_user.username, user_url(current_user)%> (<%= link_to "Log out", logout_path, { :title => "Log out" }%>)</li>
+    <li><%= link_to 'Alumnis', alumnis_url%></li><li><%= link_to 'New Course', new_alumni_url%></li>
+  </ul>
+<% else -%>
+  <ul>
+    <li><%= link_to 'Home', root_path%></li>
+    <li><%= link_to_remote "Register", :url => signup_path if params[:controller] == 'dashboards'%></li>
+    <li><%= link_to_remote "Login", :url => login_path if params[:controller] == 'dashboards'%></li>
+  </ul>
+<% end -%>

@@ -1,0 +1,2820 @@
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `alumnis` [0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 12:23:12) [POST]
+  Parameters: {"alumni"=>{}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` IS NULL) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+Rendering template within layouts/main
+Rendering alumnis/new
+Completed in 38ms (View: 29, DB: 44) | 200 OK [http://test.host/alumnis?]
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `alumnis` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `alumnis` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#index (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/alumnis]
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Rendered alumnis/_register (2.7ms)
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `courses` [0m
+
+
+Processing CoursesController#create (for 0.0.0.0 at 2009-09-09 12:23:12) [POST]
+  Parameters: {"course"=>{}}
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/courses?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `courses` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `courses` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing CoursesController#index (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/courses]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing CoursesController#new (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/courses/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `searches` [0m
+
+
+Processing SearchesController#create (for 0.0.0.0 at 2009-09-09 12:23:12) [POST]
+  Parameters: {"search"=>{}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSearch Create (0.2ms)[0m   [0;1mINSERT INTO `searches` (`university_id`, `created_at`, `updated_at`, `year`, `alumni_id`, `course_id`) VALUES(NULL, '2009-09-09 05:23:12', '2009-09-09 05:23:12', NULL, NULL, NULL)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed in 7ms (DB: 1) | 302 Found [http://test.host/searches?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `searches` [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `searches` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#new (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `universities` [0m
+
+
+Processing UniversitiesController#create (for 0.0.0.0 at 2009-09-09 12:23:12) [POST]
+  Parameters: {"university"=>{}}
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/universities?]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `universities` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `universities` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing UniversitiesController#index (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/universities]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing UniversitiesController#new (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/universities/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#controllerwelcomeactionindex (for 0.0.0.0 at 2009-09-09 12:23:12) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#actionindexcontrollerwelcome (for 0.0.0.0 at 2009-09-09 12:24:17) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:24:55) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 7ms (View: 4, DB: 15) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:30:00) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 55ms (View: 53, DB: 15) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:30:00) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:31:11) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 55ms (View: 53, DB: 38) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:31:11) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:32:34) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 57ms (View: 54, DB: 14) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 12:32:34) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 12:32:34) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:04:20) [GET]
+Redirected to http://test.host/
+Completed in 3ms (DB: 30) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:04:20) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 54ms (View: 54, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:04:20) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:04:20) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:07:31) [GET]
+Rendered alumnis/_register (54.7ms)
+Completed in 59ms (View: 56, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:07:31) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.6ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:07:31) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:07:31) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:08:01) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 57ms (View: 55, DB: 49) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:08:01) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:08:01) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:09:05) [GET]
+Rendered alumnis/_register (55.7ms)
+Completed in 60ms (View: 57, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:09:05) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:09:05) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:09:05) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:14:30) [GET]
+Rendered alumnis/_register (6.1ms)
+Completed in 59ms (View: 56, DB: 40) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:14:30) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:14:30', '2009-09-09 06:14:30', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:14:30', `name` = 'sample', `created_at` = '2009-09-09 06:14:30', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:14:30) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:14:30) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:14:30) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:15:26) [GET]
+Rendered alumnis/_register (5.8ms)
+Completed in 59ms (View: 7, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:15:26) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:15:26', '2009-09-09 06:15:26', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:15:26', `name` = 'sample', `created_at` = '2009-09-09 06:15:26', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (10.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:15:26) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 10) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:15:26) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:15:26) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:16:08) [GET]
+Rendered alumnis/_register (5.9ms)
+Completed in 60ms (View: 7, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:16:08) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:16:08', '2009-09-09 06:16:08', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:16:08', `name` = 'sample', `created_at` = '2009-09-09 06:16:08', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:16:08) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:16:08) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:16:08) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:17:36) [GET]
+Rendered alumnis/_register (5.8ms)
+Completed in 59ms (View: 7, DB: 33) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:17:36) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:17:36', '2009-09-09 06:17:36', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:17:36', `name` = 'sample', `created_at` = '2009-09-09 06:17:36', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:17:36) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:17:36) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:17:36) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:18:12) [GET]
+Rendered alumnis/_register (5.8ms)
+Completed in 58ms (View: 7, DB: 20) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:18:12) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:18:12', '2009-09-09 06:18:12', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:18:12', `name` = 'sample', `created_at` = '2009-09-09 06:18:12', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:18:12) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:18:12) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:18:12) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:20:28) [GET]
+Rendered alumnis/_register (5.8ms)
+Completed in 59ms (View: 7, DB: 16) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:20:28) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:20:28) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:20:28', '2009-09-09 06:20:28', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.4ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:20:28', `name` = 'sample', `created_at` = '2009-09-09 06:20:28', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:20:28) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:20:28) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:20:28) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:21:11) [GET]
+Rendered alumnis/_register (5.9ms)
+Completed in 59ms (View: 56, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:21:11) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:21:11) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:21:11', '2009-09-09 06:21:11', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:21:11', `name` = 'sample', `created_at` = '2009-09-09 06:21:11', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (4.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:21:11) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 5) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:21:11) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:21:11) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:24:22) [GET]
+Rendered alumnis/_register (5.9ms)
+Completed in 59ms (View: 56, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:24:22) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.4ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:24:22) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:24:22', '2009-09-09 06:24:22', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:24:22', `name` = 'sample', `created_at` = '2009-09-09 06:24:22', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:24:22) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:24:22) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:24:22) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:24:22) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:24:38) [GET]
+Rendered alumnis/_register (6.0ms)
+Completed in 59ms (View: 56, DB: 39) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:24:38) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:24:38) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:24:38', '2009-09-09 06:24:38', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:24:38', `name` = 'sample', `created_at` = '2009-09-09 06:24:38', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:24:38) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:24:38) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:24:38) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:24:38) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:26:33) [GET]
+Rendered alumnis/_register (5.9ms)
+Completed in 59ms (View: 56, DB: 15) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:26:33) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:26:33) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:26:33', '2009-09-09 06:26:33', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:26:33', `name` = 'sample', `created_at` = '2009-09-09 06:26:33', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:26:33) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:26:33) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:26:33) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:26:33) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 6ms (View: 3, DB: 39) | 200 OK [http://test.host/alumnis/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Rendered alumnis/_register (4.6ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.4ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:30:07) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:30:07', '2009-09-09 06:30:07', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.3ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:30:07', `name` = 'sample', `created_at` = '2009-09-09 06:30:07', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:30:07) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:30:07) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Rendered alumnis/_login (2.2ms)
+Completed in 55ms (View: 3, DB: 15) | 200 OK [http://test.host/alumnis/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Rendered alumnis/_register (4.6ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:33:06) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:33:06) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:33:06', '2009-09-09 06:33:06', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.3ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:33:06', `name` = 'sample', `created_at` = '2009-09-09 06:33:06', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:33:06) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:33:06) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:35:36) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.8ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 59ms (DB: 16) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Rendered alumnis/_login (2.6ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Rendered alumnis/_register (4.9ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;36;1mCourse Load (0.3ms)[0m   [0;1mSELECT * FROM `courses` ORDER BY name[0m
+  [4;35;1mUniversity Load (0.6ms)[0m   [0mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 13ms (View: 12, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:35:36) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:35:36) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:35:36', '2009-09-09 06:35:36', 'demo', 'sample@gmail.com')[0m
+  [4;36;1mAlumni Update (0.3ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:35:36', `name` = 'sample', `created_at` = '2009-09-09 06:35:36', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:35:36) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Redirected to http://test.host/
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:35:36) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:37:59) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 53ms (DB: 15) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#/alumnis/2053932786 (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Rendered alumnis/_register (4.5ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:38:00) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:38:00) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:38:00', '2009-09-09 06:38:00', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:38:00', `name` = 'sample', `created_at` = '2009-09-09 06:38:00', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (4.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:38:00) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 4) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:38:00) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:39:33) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.4ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 62ms (DB: 18) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#/alumnis/2053932786 (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Rendered alumnis/_register (4.9ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:39:33) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:39:33) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:39:33', '2009-09-09 06:39:33', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:39:33', `name` = 'sample', `created_at` = '2009-09-09 06:39:33', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:39:33) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:39:33) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:41:46) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 15) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#/alumnis/2053932786 (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Rendered alumnis/_register (4.7ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:41:46) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:41:46) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:41:46', '2009-09-09 06:41:46', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:41:46', `name` = 'sample', `created_at` = '2009-09-09 06:41:46', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:41:46) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:41:46) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:42:42) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 4ms (DB: 15) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#alumnis/2053932786 (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Rendered alumnis/_register (4.7ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:42:42) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:42:42) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:42:42', '2009-09-09 06:42:42', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:42:42', `name` = 'sample', `created_at` = '2009-09-09 06:42:42', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:42:42) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:42:42) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:43:53) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.4ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 15) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#actionshowid2053932786 (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Rendered alumnis/_register (4.8ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:43:53) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:43:53) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:43:53', '2009-09-09 06:43:53', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:43:53', `name` = 'sample', `created_at` = '2009-09-09 06:43:53', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (7.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:43:53) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 8) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:43:53) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:48:07) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 54ms (DB: 17) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:48:07) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:48:07) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:48:07', '2009-09-09 06:48:07', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.3ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:48:07', `name` = 'sample', `created_at` = '2009-09-09 06:48:07', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:48:07) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:48:07) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:48:56) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 37) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Rendered alumnis/_login (2.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:48:56) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:48:56) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:48:56', '2009-09-09 06:48:56', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:48:56', `name` = 'sample', `created_at` = '2009-09-09 06:48:56', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:48:56) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:48:56) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:49:26) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 55ms (DB: 17) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Rendered alumnis/_register (3.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:49:26) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:49:26) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:49:26', '2009-09-09 06:49:26', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:49:26', `name` = 'sample', `created_at` = '2009-09-09 06:49:26', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:49:26) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:49:26) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:53:31) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 28) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Rendered alumnis/_register (2.8ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:53:31) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:53:31) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:53:31', '2009-09-09 06:53:31', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:53:31', `name` = 'sample', `created_at` = '2009-09-09 06:53:31', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#searches (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/searches]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:53:31) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:53:31) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:54:53) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 55ms (DB: 16) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 12ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:54:53) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:54:53) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:54:53', '2009-09-09 06:54:53', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.3ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:54:53', `name` = 'sample', `created_at` = '2009-09-09 06:54:53', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (11.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 11) | 302 Found [http://test.host/searches]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:54:53) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:54:53) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:55:29) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.4ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 55ms (DB: 15) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:55:29) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:55:29) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:55:29) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:55:30) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:55:30) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:55:30) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:55:30', '2009-09-09 06:55:30', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:55:30', `name` = 'sample', `created_at` = '2009-09-09 06:55:30', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 13:55:30) [GET]
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` IN (2053932785,298486374)) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` IN (1187371253,298486374)) [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` IN (2053932786,2053932787,2053932788)) [0m
+Rendering template within layouts/main
+Rendering searches/index
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name DESC[0m
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM `courses` ORDER BY name DESC[0m
+Rendered searches/_tables (3.8ms)
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://test.host/searches]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:55:30) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:55:30) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:55:30) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:55:30) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:57:57) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 49) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:57:57) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:57:57) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:57:57', '2009-09-09 06:57:57', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.3ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:57:57', `name` = 'sample', `created_at` = '2009-09-09 06:57:57', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing SearchesController#do_now (for 0.0.0.0 at 2009-09-09 13:57:57) [POST]
+  Parameters: {"course"=>"--select--", "university"=>"2053932785", "year"=>"--select--"}
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 1) | 302 Found [http://test.host/searches/do_now?course=--select--&university=2053932785&year=--select--]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` IN (2053932785,298486374)) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` IN (1187371253,298486374)) [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` IN (2053932786,2053932787,2053932788)) [0m
+Rendering template within layouts/main
+Rendering searches/index
+  [4;36;1mUniversity Load (0.3ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name DESC[0m
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM `courses` ORDER BY name DESC[0m
+Rendered searches/_tables (3.7ms)
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://test.host/searches]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:57:57) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:57:57) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:58:39) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 33) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Rendered alumnis/_login (2.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Rendered alumnis/_register (2.9ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 13:58:39) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 13:58:39) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 06:58:39', '2009-09-09 06:58:39', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 06:58:39', `name` = 'sample', `created_at` = '2009-09-09 06:58:39', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#do_now (for 0.0.0.0 at 2009-09-09 13:58:39) [POST]
+  Parameters: {"course"=>"--select--", "university"=>"2053932785", "year"=>"--select--"}
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`university_id` = '2053932785') [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+  [4;36;1mUniversity Load (0.1ms)[0m   [0;1mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;35;1mCourse Load (0.1ms)[0m   [0mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932788) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mCourse Load (0.1ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 1187371253) [0m
+Rendered searches/_tables (7.2ms)
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://test.host/searches/do_now?course=--select--&university=2053932785&year=--select--]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` IN (2053932785,298486374)) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` IN (1187371253,298486374)) [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` IN (2053932786,2053932787,2053932788)) [0m
+Rendering template within layouts/main
+Rendering searches/index
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name DESC[0m
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM `courses` ORDER BY name DESC[0m
+Rendered searches/_tables (2.8ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://test.host/searches]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 13:58:39) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 13:58:39) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'new@aol.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'new@aol.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.3ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('someone', '2009-09-09 07:06:31', '2009-09-09 07:06:31', 'demo', 'new@aol.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 07:06:31', `name` = 'someone', `created_at` = '2009-09-09 07:06:31', `email` = 'new@aol.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (12.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'new@aol.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.3ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('someone', '2009-09-09 07:08:34', '2009-09-09 07:08:34', 'demo', 'new@aol.com')[0m
+  [4;36;1mAlumni Update (0.3ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 07:08:34', `name` = 'someone', `created_at` = '2009-09-09 07:08:34', `email` = 'new@aol.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'new@aol.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.3ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('someone', '2009-09-09 07:11:48', '2009-09-09 07:11:48', 'demo', 'new@aol.com')[0m
+  [4;36;1mAlumni Update (0.3ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 07:11:48', `name` = 'someone', `created_at` = '2009-09-09 07:11:48', `email` = 'new@aol.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`year` = 2009 AND `searches`.`course_id` = 298486374 AND `searches`.`university_id` = 2053932785) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'new@aol.com') LIMIT 1[0m
+  [4;35;1mAlumni Create (0.2ms)[0m   [0mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('someone', '2009-09-09 07:12:04', '2009-09-09 07:12:04', 'demo', 'new@aol.com')[0m
+  [4;36;1mAlumni Update (0.2ms)[0m   [0;1mUPDATE `alumnis` SET `updated_at` = '2009-09-09 07:12:04', `name` = 'someone', `created_at` = '2009-09-09 07:12:04', `email` = 'new@aol.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932789[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.3ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (email='someone' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Load (0.3ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`year` = 2009 AND `searches`.`course_id` = 298486374 AND `searches`.`university_id` = 2053932785) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 14:12:07) [POST]
+  Parameters: {"password"=>"demo", "email"=>"hallo@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='hallo@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/
+Completed in 53ms (DB: 41) | 302 Found [http://test.host/alumnis/do_login?email=hallo%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#login (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Rendered alumnis/_login (2.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/alumnis/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing AlumnisController#show (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+  Parameters: {"id"=>2053932786}
+  [4;35;1mSearch Load (0.2ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`alumni_id` = 2053932786) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+Rendering template within layouts/main
+Rendering alumnis/show
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://test.host/alumnis/2053932786]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Rendered alumnis/_register (2.8ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/alumnis/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#new2 (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Rendering template within layouts/main
+Rendering alumnis/new2
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM `courses` ORDER BY name[0m
+  [4;36;1mUniversity Load (0.2ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name[0m
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://test.host/alumnis/new2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing AlumnisController#do_login (for 0.0.0.0 at 2009-09-09 14:12:07) [POST]
+  Parameters: {"password"=>"demo", "email"=>"harry@gmail.com"}
+  [4;35;1mAlumni Load (0.3ms)[0m   [0mSELECT * FROM `alumnis` WHERE (email='harry@gmail.com' and password='fe01ce2a7fbac8fafaed7c982a04e229') LIMIT 1[0m
+Redirected to http://test.host/alumnis/2053932786
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/alumnis/do_login?email=harry%40gmail.com&password=demo]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing AlumnisController#create (for 0.0.0.0 at 2009-09-09 14:12:07) [POST]
+  Parameters: {"commit"=>"Create", "alumni"=>{"name"=>"sample", "password_confirmation"=>"demo", "password"=>"demo", "email"=>"sample@gmail.com"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'sample@gmail.com') LIMIT 1[0m
+  [4;36;1mAlumni Create (0.2ms)[0m   [0;1mINSERT INTO `alumnis` (`name`, `created_at`, `updated_at`, `password`, `email`) VALUES('sample', '2009-09-09 07:12:07', '2009-09-09 07:12:07', 'demo', 'sample@gmail.com')[0m
+  [4;35;1mAlumni Update (0.2ms)[0m   [0mUPDATE `alumnis` SET `updated_at` = '2009-09-09 07:12:07', `name` = 'sample', `created_at` = '2009-09-09 07:12:07', `email` = 'sample@gmail.com', `password` = 'fe01ce2a7fbac8fafaed7c982a04e229' WHERE `id` = 2053932790[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/alumnis/new2
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/alumnis?alumni%5Bemail%5D=sample%40gmail.com&alumni%5Bname%5D=sample&alumni%5Bpassword%5D=demo&alumni%5Bpassword_confirmation%5D=demo&commit=Create]
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#do_now (for 0.0.0.0 at 2009-09-09 14:12:07) [POST]
+  Parameters: {"course"=>"--select--", "university"=>"2053932785", "year"=>"--select--"}
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`university_id` = '2053932785') [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932786) [0m
+  [4;36;1mUniversity Load (0.1ms)[0m   [0;1mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;35;1mCourse Load (0.1ms)[0m   [0mSELECT * FROM `courses` WHERE (`courses`.`id` = 298486374) [0m
+  [4;36;1mAlumni Load (0.1ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` = 2053932788) [0m
+  [4;35;1mUniversity Load (0.1ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` = 2053932785) [0m
+  [4;36;1mCourse Load (0.1ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` = 1187371253) [0m
+Rendered searches/_tables (6.9ms)
+Completed in 11ms (View: 7, DB: 2) | 200 OK [http://test.host/searches/do_now?course=--select--&university=2053932785&year=--select--]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing SearchesController#index (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+  [4;36;1mSearch Load (0.2ms)[0m   [0;1mSELECT * FROM `searches` [0m
+  [4;35;1mUniversity Load (0.2ms)[0m   [0mSELECT * FROM `universities` WHERE (`universities`.`id` IN (2053932785,298486374)) [0m
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM `courses` WHERE (`courses`.`id` IN (1187371253,298486374)) [0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`id` IN (2053932786,2053932787,2053932788)) [0m
+Rendering template within layouts/main
+Rendering searches/index
+  [4;36;1mUniversity Load (0.3ms)[0m   [0;1mSELECT * FROM `universities` ORDER BY name DESC[0m
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM `courses` ORDER BY name DESC[0m
+Rendered searches/_tables (2.8ms)
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://test.host/searches]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing SearchesController#createcommitChoosesearchuniversity_id298486374year2008course_id298486374 (for 0.0.0.0 at 2009-09-09 14:12:07) [POST]
+Redirected to http://test.host/
+Filter chain halted as [:check_login] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/searches/createcommitChoosesearchuniversity_id298486374year2008course_id298486374]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Rendering template within layouts/main
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAlumni Load (0.2ms)[0m   [0;1mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#logout (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Redirected to http://test.host/
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/welcome/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAlumni Load (0.2ms)[0m   [0mSELECT * FROM `alumnis` WHERE (`alumnis`.`email` = 'harry@gmail.com') LIMIT 1[0m
+
+
+Processing WelcomeController#index (for 0.0.0.0 at 2009-09-09 14:12:07) [GET]
+Redirected to http://test.host/alumnis/2053932786
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m

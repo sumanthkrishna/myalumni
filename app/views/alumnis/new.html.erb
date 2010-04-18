@@ -1,0 +1,16 @@
+<% content_for :container do %>
+  <% unless logged_in? %><h2>Step 2: <br />Input Your Course Info</h2><% end -%>
+  <div id="account_form">
+    <%= error_messages_for :alumni %><br/>
+      <% form_for :alumni, :url => alumnis_path do |f| -%>
+          <%= label_tag 'Course' %>
+          <%= f.select :course_id, @courses.collect {|c| [c.name,c.id] }, {:class=>"registration"} %>
+          <%= label_tag 'University' %>
+          <%= f.select :university_id, @universities.collect {|u| [u.name,u.id] }, {:class=>"registration"} %>
+          <%= label_tag 'Years' %>
+          <%= f.select :year,(1900..2009).to_a.reverse, {:class=>"registration"} %><br/>
+          <% if logged_in?%><%= hidden_field_tag "alumni[user_id]", current_user.id%><% end -%>
+          <%= submit_tag 'Save', {:class=>"button"} %>
+      <% end -%>
+  </div>
+<% end -%>

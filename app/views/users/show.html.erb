@@ -1,0 +1,25 @@
+<% content_for :container do -%>
+  <div id="heading">
+        <h1><%= current_user.username%> (<%= current_user.email%>)</h1>
+      </div><!-- end heading -->
+      <div id="content">
+        <table>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>University</th>
+              <th>Year</th>
+            </tr>
+          <thead>
+          <tbody>
+            <% current_user.alumnis.each do |a| -%>
+            <tr>
+              <td><%= a.course.name %></td>
+              <td><%= a.university.name %></td>
+              <td><%= a.year %></td>
+            </tr>
+            <% end 	%>
+          </tbody>
+        </table>
+      </div>
+<% end -%>

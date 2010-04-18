@@ -1,0 +1,23 @@
+<p>
+  <b>Alumni:</b>
+  <%=h @search.alumni_id %>
+</p>
+
+<p>
+  <b>University:</b>
+  <%=h @search.university_id %>
+</p>
+
+<p>
+  <b>Course:</b>
+  <%=h @search.course_id %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%=h @search.year %>
+</p>
+
+
+<%= link_to 'Edit', edit_search_path(@search) %> |
+<%= link_to 'Back', searches_path %>
